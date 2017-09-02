@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/cookie.js"></script>
+</head>
+<body>
+    <header id="header"></header>
+    <div class="container shop-main">
+        <div class="carousel">
+            <div class="sub-left">
+                <ul>
+                    <li><dl><dt>奢侈品</dt><dd>包袋|</dd><dd>服装<span>|</span></dd><dd>配饰</dd></dl> </li>
+                    <li><dl><dt>女<span></span>装</dt><dd>连衣裙<span>|</span></dd><dd>T恤<span>|</span></dd><dd>衬衫</dd></dl></li>
+                    <li><dl><dt>男<span></span>装</dt><dd>衬衫<span>|</span></dd><dd>T恤<span>|</span></dd><dd>休闲裤</dd></dl></li>
+                    <li><dl><dt>运<span></span>动</dt><dd>男运动服<span>|</span></dd><dd>女运动服</dd></dl></li>
+                    <li><dl><dt>鞋<span></span>靴</dt><dd>休闲鞋<span>|</span></dd><dd>高跟鞋</dd></dl></li>
+                    <li><dl><dt>箱<span></span>包</dt><dd>男包<span>|</span></dd><dd>女包<span>|</span></dd><dd>手提包</dd></dl></li>
+                    <li><dl><dt>内<span></span>衣</dt><dd>文胸<span>|</span></dd><dd>内裤<span>|</span></dd><dd>睡衣</dd></dl></li>
+                    <li><dl><dt>婴<span></span>童</dt><dd>童鞋<span>|</span></dd><dd>宝宝用品</dd></dl></li>
+                    <li><dl><dt>跨境汇</dt><dd>进口美妆<span>|</span></dd><dd>进口母婴</dd></dl></li>
+                </ul>
+            </div>
+            <div class="carousel-right">
+                <ul class="carouseSlider"></ul>
+                <ul class="subScript"></ul>
+                <a class="next" href="javascript:;"></a>
+                <a class="prev" href="javascript:;"></a>
+            </div>
+        </div>
+
+        <div class="container Img-nav">
+            <ul>
+                <li><a href="#"><img src="images/nav-img-01.png" alt=""></a></li>
+                <li><a href="#"><img src="images/nav-img-02.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/nav-img-03.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/nav-img-04.png" alt=""></a></li>
+            </ul>
+        </div>
+
+        <div class="shop-tit container"><h3>限时秒杀</h3> Time Spike</div>
+        <div class="seckill-list leftNavshow container slider">
+            <div class="seckill-banner"><img src="images/seckill.jpg" alt=""></div>
+            <ul id="seckill-list"></ul>
+        </div>
+
+        <div class="shop-tit container"><h3>专柜精选</h3> Brand Wew</div>
+        <div class="featured container slider" id="featured">
+            <ul>
+                <li><a href="#"><img src="images/featured-01.jpg" alt=""></a><div id="shadow"></div></li>
+                <li><a href="#"><img src="images/featured-02.jpg" alt=""></a><div id="shadow"></div></li>
+                <li><a href="#"><img src="images/featured-03.jpg" alt=""></a><div id="shadow"></div></li>
+                <li><a href="#"><img src="images/featured-04.jpg" alt=""></a><div id="shadow"></div></li>
+                <li><a href="#"><img src="images/featured-05.jpg" alt=""></a><div id="shadow"></div></li>
+            </ul>
+        </div>
+
+        <div class="shop-tit container"><h3>国际奢品</h3> Luxury Goods</div>
+        <div class="luxury container content slider">
+            <div class="luxury-left content-left">
+                <img src="images/luxury.jpg" alt="">
+                <div class="luxury-content">
+                    <div class="content-tit"><a href="#">更多国际奢品>></a></div>
+                    <ul>
+                        <li class="active"><a href="#">女装短袖T恤</a></li>
+                        <li><a href="#">女装长袖T恤</a></li>
+                        <li><a href="#">女装针织衫</a></li>
+                        <li class="active"><a href="#">男款短袖T恤</a></li>
+                        <li class="active"><a href="#">男款长袖T恤</a></li>
+                        <li><a href="#">男款针织衫</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="luxury-right">
+                    <ul>
+                        <li><a href="#"><img src="images/luxury-list-01.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/luxury-list-02.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/luxury-list-03.png" alt=""></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">
+                            <p class="name">男款纯棉套头衫</p>
+                            <p class="price">¥1190.00</p>
+                            <img src="images/luxury-list-04.png" alt="">
+                        </a></li>
+                        <li><a href="#">
+                            <p class="name">男款纯棉套头衫</p>
+                            <p class="price">¥1190.00</p>
+                            <img src="images/luxury-list-05.png" alt="">
+                        </a></li>
+                        <li><a href="#">
+                            <p class="name">男款纯棉套头衫</p>
+                            <p class="price">¥1190.00</p>
+                            <img src="images/luxury-list-06.png" alt="">
+                        </a></li>
+                        <li><a href="#">
+                            <p class="name">男款纯棉套头衫</p>
+                            <p class="price">¥1190.00</p>
+                            <img src="images/luxury-list-07.png" alt="">
+                        </a></li>
+                    </ul>
+            </div>
+        </div>
+
+        <div class="luxury-scroll tab-scroll container">
+            <div class="tabWrapp-lu" id="tabWrapp-lu">
+                <ul>
+                    <li><a href="#"><img src="images/tab-lise-01.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/tab-lise-02.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/tab-lise-03.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/tab-lise-04.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/tab-lise-05.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/tab-lise-06.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/tab-lise-07.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/tab-lise-08.jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="prev arrow lu1p"></div>
+            <div class="next arrow lu1n"></div>
+        </div>
+
+        <div class="shop-tit container"><h3>跨境优品</h3>Cross-border Goods</div>
+        <div class="cross container content slider">
+            <div class="cross-left content-left">
+                <img src="images/cross.jpg" alt="">
+                <div class="luxury-content">
+                    <div class="content-tit"><a href="#">更多跨境优品>></a></div>
+                    <ul>
+                        <li class="active"><a href="#">面部护理</a></li>
+                        <li><a href="#">香水彩妆</a></li>
+                        <li><a href="#">日常个护</a></li>
+                        <li class="active"><a href="#">进口尿裤</a></li>
+                        <li class="active"><a href="#">奶粉辅食</a></li>
+                        <li><a href="#">营养保健</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cross-right">
+                <div class="cross-right-ban">
+                    <ul>
+                        <li><img src="images/corss-list-02.jpg" alt=""></li>
+                        <li><img src="images/corss-list-03.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="cross-right-list">
+                    <ul>
+                        <li><a href="#"><img src="images/corss-list-04.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="images/corss-list-05.jpg" alt=""></a></li>
+                        <li class="bor-none"><a href="#"><img src="images/corss-list-06.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="images/corss-list-07.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="images/corss-list-08.jpg" alt=""></a></li>
+                        <li class="bor-none"><a href="#"><img src="images/corss-list-09.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="cross-scroll tab-scroll container">
+            <div class="tabWrapp-lu" id="tabWrapp-lu2">
+                <ul>
+                    <li><a href="#"><img src="images/tab-lise-01.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/tab-lise-02.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/tab-lise-03.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/tab-lise-04.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/tab-lise-05.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/tab-lise-06.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/tab-lise-07.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/tab-lise-08.jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="prev arrow lu2p"></div>
+            <div class="next arrow lu2n"></div>
+        </div>
+
+        <div class="shop-tit container"><h3>运动户外</h3>Sport&Outdoors</div>
+        <div class="sport content container content2 slider">
+            <div class="sport-left content2-left">
+                <img src="images/sport.jpg" alt="">
+                <div class="sport-content content2-left-down1">
+                    <ul>
+                        <li><a href="#">面部护理</a></li>
+                        <li><a href="#">香水彩妆</a></li>
+                        <li><a href="#">日常个护</a></li>
+                        <li class="active"><a href="#">进口尿裤</a></li>
+                        <li><a href="#">奶粉辅食</a></li>
+                        <li class="active"><a href="#">营养保健</a></li>
+                        <li><a href="#">营养保健</a></li>
+                        <li><a href="#">营养保健</a></li>
+                    </ul>
+                </div>
+                <div class="content2-left-down2">
+                    <ul>
+                        <li><img src="images/tab-list-01.jpg" alt=""></li>
+                        <li><img src="images/tab-list-02.jpg" alt=""></li>
+                        <li><img src="images/tab-list-03.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content2-right">
+                <div class="content2-right-up">
+                    <ul>
+                        <li><img src="images/spotr-list-01.jpg" alt=""></li>
+                        <li><img src="images/spotr-list-02.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="content2-right-down">
+                    <ul>
+                        <li>
+                            <img src="images/spotr-list-03.jpg" alt="">
+                            <p class="brand">Xtep特步</p>
+                            <p class="product-name">男子运动时尚短袖上衣</p>
+                            <p class="price">¥69.00</p>
+                        </li>
+                        <li>
+                            <img src="images/spotr-list-04.jpg" alt="">
+                            <p class="brand">Xtep特步</p>
+                            <p class="product-name">男子运动时尚短袖上衣</p>
+                            <p class="price">¥69.00</p>
+                        </li>
+                        <li>
+                            <img src="images/spotr-list-05.jpg" alt="">
+                            <p class="brand">Xtep特步</p>
+                            <p class="product-name">男子运动时尚短袖上衣</p>
+                            <p class="price">¥69.00</p>
+                        </li>
+                        <li>
+                            <img src="images/spotr-list-06.jpg" alt="">
+                            <p class="brand">Xtep特步</p>
+                            <p class="product-name">男子运动时尚短袖上衣</p>
+                            <p class="price">¥69.00</p>
+                        </li>
+                        <li>
+                            <img src="images/spotr-list-07.jpg" alt="">
+                            <p class="brand">Xtep特步</p>
+                            <p class="product-name">男子运动时尚短袖上衣</p>
+                            <p class="price">¥69.00</p>
+                        </li>
+                        <li>
+                            <img src="images/spotr-list-08.jpg" alt="">
+                            <p class="brand">Xtep特步</p>
+                            <p class="product-name">男子运动时尚短袖上衣</p>
+                            <p class="price">¥69.00</p>
+                        </li>
+                        <li>
+                            <img src="images/spotr-list-09.jpg" alt="">
+                            <p class="brand">Xtep特步</p>
+                            <p class="product-name">男子运动时尚短袖上衣</p>
+                            <p class="price">¥69.00</p>
+                        </li>
+                        <li>
+                            <img src="images/spotr-list-010.jpg" alt="">
+                            <p class="brand">Xtep特步</p>
+                            <p class="product-name">男子运动时尚短袖上衣</p>
+                            <p class="price">¥69.00</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="right-guide">
+		  <ul>
+		    <li><a href="javascript:;"><em>个人中心</em><div class="right-guide-cont"><span></span></div></a></li>
+		    <li id="end"><a href="mycart.html"><em>购物车</em><div class="right-guide-cont"><span></span></div><i class="goodsNum">0</i></a><div id="msg">已成功加入购物车！</div></li>
+		    <li><a href="javascript:;"><em>我的收藏</em><div class="right-guide-cont"><span></span></div></a></li>
+		    <li><a href="javascript:;"><em>优惠券</em><div class="right-guide-cont"><span></span></div></a></li>
+		    <li><a href="javascript:;"><em>我的足迹</em><div class="right-guide-cont"><span></span></div></a></li>
+		    <li><a href="javascript:;"><em>奥莱客服</em><div class="right-guide-cont"><span></span></div></a></li>
+		    <li class="returnTop"><a href="javascript:;"><em>返回顶部</em><div class="right-guide-cont"><span></span></div></a></li>
+		  </ul>
+		</div>
+
+        <div class="leftNav">
+            <ul>
+                <li class="active">限时秒杀</li>
+                <li>专柜精选</li>
+                <li>国际奢品</li>
+                <li>跨境优品</li>
+                <li>运动户外</li>
+            </ul>
+        </div>
+
+    <footer id="footer"></footer>
+    <script type="text/javascript" src="js/Marquee.js"></script>
+    <script type="text/javascript" src="js/load-head.js"></script>
+    <script type="text/javascript" src="js/load-footer.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
+</body>
+</html>

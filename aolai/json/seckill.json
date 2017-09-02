@@ -1,0 +1,64 @@
+[
+  {
+    "id": "01",
+    "img": "images/seckill-list.jpg",
+    "name": "BALLY 巴利 新品男款钱包",
+    "price": "1999.00",
+    "del": "2990.00",
+    "discount": "1000",
+    "unit": "￥",
+    "color": ["巧克力色","黑色","红色"],
+    "size": ["12","15"],
+    "festivalTa": "相约七夕 爱意之礼",
+    "festivalTb": "前30名付款订单送电影票两张（用票截止时间8月31日） 活动时间：8.21 20:00-8.29 20:00",
+    "imgs": ["images/seckill-list-01-60x60.jpg","images/seckill-list-02-60x60.jpg","images/seckill-list-03-60x60.jpg","images/seckill-list-04-60x60.jpg","images/seckill-list-05-60x60.jpg"],
+    "bigImg": ["images/seckill-list-01-400x400.jpg","images/seckill-list-02-400x400.jpg","images/seckill-list-03-400x400.jpg","images/seckill-list-04-400x400.jpg","images/seckill-list-05-400x400.jpg"]
+  },
+  {
+    "id": "02",
+    "img": "images/seckill-list-02.jpg",
+    "name": "GUCCI 古驰 新品时尚男款牛皮手拿包钱包433665",
+    "price": "2000",
+    "del": "4000.00",
+    "discount": "2000",
+    "unit": "￥",
+    "color": ["黑色","白色","红色"],
+    "size": ["12","15"],
+    "festivalTa": "相约七夕 爱意之礼",
+    "festivalTb": "前30名付款订单送电影票两张（用票截止时间8月31日） 活动时间：8.21 20:00-8.29 20:00",
+    "imgs": ["images/seckill-list-01-60x60.jpg","images/seckill-list-02-60x60.jpg","images/seckill-list-03-60x60.jpg","images/seckill-list-04-60x60.jpg","images/seckill-list-05-60x60.jpg"],
+    "bigImg": ["images/seckill-list-01-400x400.jpg","images/seckill-list-02-400x400.jpg","images/seckill-list-03-400x400.jpg","images/seckill-list-04-400x400.jpg","images/seckill-list-05-400x400.jpg"]
+  },
+  {
+    "id": "03",
+    "img": "images/seckill-list-03.jpg",
+    "name": "FERRAGAMO/菲拉格慕 新品时尚男式牛皮钱包钱夹手拿包",
+    "price": "3000",
+    "del": "6000.00",
+    "discount": "3000",
+    "unit": "￥",
+    "color": ["黑色","棕色","红色"],
+    "size": ["12","15"],
+    "festivalTa": "相约七夕 爱意之礼",
+    "festivalTb": "前30名付款订单送电影票两张（用票截止时间8月31日） 活动时间：8.21 20:00-8.29 20:00",
+    "imgs": ["images/seckill-list-01-60x60.jpg","images/seckill-list-02-60x60.jpg","images/seckill-list-03-60x60.jpg","images/seckill-list-04-60x60.jpg","images/seckill-list-05-60x60.jpg"],
+    "bigImg": ["images/seckill-list-01-400x400.jpg","images/seckill-list-02-400x400.jpg","images/seckill-list-03-400x400.jpg","images/seckill-list-04-400x400.jpg","images/seckill-list-05-400x400.jpg"]
+
+  },
+  {
+    "id": "04",
+    "img": "images/seckill-list-04.jpg",
+    "name": "巴利 男款公文包单肩包TEP0LT 6184566",
+    "price": "5000.00",
+    "del": "9000.00",
+    "discount": "4000",
+    "unit": "￥",
+    "color": ["绿色","黑色","蓝色"],
+    "size": ["12","15"],
+    "festivalTa": "相约七夕 爱意之礼",
+    "festivalTb": "前30名付款订单送电影票两张（用票截止时间8月31日） 活动时间：8.21 20:00-8.29 20:00",
+    "imgs": ["images/seckill-list-01-60x60.jpg","images/seckill-list-02-60x60.jpg","images/seckill-list-03-60x60.jpg","images/seckill-list-04-60x60.jpg","images/seckill-list-05-60x60.jpg"],
+    "bigImg": ["images/seckill-list-01-400x400.jpg","images/seckill-list-02-400x400.jpg","images/seckill-list-03-400x400.jpg","images/seckill-list-04-400x400.jpg","images/seckill-list-05-400x400.jpg"]
+
+  }
+]

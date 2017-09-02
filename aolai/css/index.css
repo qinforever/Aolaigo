@@ -1,0 +1,124 @@
+.carousel{position: relative; height:460px;}
+.carousel .sub-left{ float:left;width:200px; height:460px; background: #fff;}
+.carousel .sub-left ul{width: 200px; height: 460px; background: #fff; display: block; position: relative; top: 0; left: 0; -webkit-border-bottom-left-radius: 10px; border-bottom-left-radius: 10px; -webkit-box-shadow: 0 0 20px rgba(0,0,0,.13); box-shadow: 0 0 20px rgba(0,0,0,.13);}
+.carousel .sub-left ul li{ width:100%; height:50px; margin:0 auto;line-height: 50px;}
+.carousel .sub-left ul li dl dt{display: inline-block;width:76px;text-align:center;font-size: 16px;}
+.carousel .sub-left ul li dl dt span{display: inline-block; width:18px;}
+.carousel .sub-left ul li dl dd{ display: inline-block;}
+.carousel .sub-left ul li dl dd span{ padding:0px 1px;}
+.carousel .sub-left ul li dl dd a{ font-size:14px;}
+
+.carousel-right{ float: left; width:998px;height:460px;position: relative;}
+.carousel-right .carouseSlider{width:998px;height:460px;}
+.carousel-right .carouseSlider li{position: absolute;left: 0px;top: 0px;}
+.carousel-right .carouseSlider li img{ width:100%;}
+.carousel-right .subScript{width:200px; height:20px; position: absolute; left:50%; bottom:20px;}
+.carousel-right .subScript li{display: inline-block; width:20px; height:20px;cursor:pointer;background: #f5f5f5;border-radius: 100%; color: #B0B0B0;text-align: center; line-height:20px;font-family: "微软雅黑"; margin-left:5px;}
+.carousel-right .subScript li.active{ color: red; background: #fff;}
+.carousel-right a{display: none;position: absolute;top: 50%;width: 50px;height: 50px;background: url(../images/index-logoScroll.png) #fff no-repeat;z-index: 999;}
+.carousel-right a.next{right: 0px;background-position: -25px -18px;}
+.carousel-right a.prev{left: 0px;background-position: 5px -18px;}
+.carousel-right:hover a{display: block;}
+
+.Img-nav{ margin-top:10px; overflow: hidden;}
+.Img-nav ul li{ float: left; margin-right:13px;}
+.Img-nav ul li:last-child{ margin-right:0px;}
+
+.shop-main{ padding-bottom:100px;}
+.shop-tit{height:70px;line-height: 70px;}
+.shop-tit h3{ font-size:24px;display:inline-block;letter-spacing: 4px;font-weight: 500; font-family:"黑体","Hiragino Sans GB";}
+
+.seckill-list{ height:440px;}
+.seckill-list .seckill-banner{ float: left;width:270px; height:440px;}
+.seckill-list ul{ float: left;}
+.seckill-list ul li{ float: left; width:230px; border-right:1px solid #f1f1f1;font-size: 16px; color: #333; font-weight: 600;text-align: center;cursor: pointer;}
+.seckill-list ul li .list-tit{ width:80%; height:40px;line-height: 40px;overflow: hidden; margin: 0 auto;}
+.seckill-list ul li .price span{font-size: 17px;color: #c81417;}
+.seckill-list ul li .price del{font-size: 14px;padding-left: 10px;}
+.seckill-list ul li .addCart{ display: block;font-size: 14px;text-align:right; padding-right: 10px; color: #c81417;}
+
+.featured{ overflow: hidden;}
+.featured ul li{ float: left; margin-right:10px;position: relative;height: 350px;}
+.featured ul li img{width: 100%;height: 100%;}
+.featured ul li #shadow{width: 100%;height: 100%;background: rgba(0,0,0,.5);position: absolute;left: 0;top: -350px;}
+.featured ul li:last-child{ margin-right:0px;}
+.content-tit{ width:200px; height:40px; background: #7fced2;text-align: center; position: absolute; top: -40px; left:50%;z-index: 99;margin-left:-100px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;}
+.content-tit a{ font-size: 12px; color: #fff;line-height: 40px;font-family: "宋体";}
+
+.content{height:580px;-webkit-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 1px 1px 3px #d4d4d4; box-shadow: 1px 1px 3px #d4d4d4; overflow: hidden; position: relative; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); -webkit-transform-style: preserve-3d; transform-style: preserve-3d; }
+.content-left{ float: left; width:320px;}
+.content-left img{display: block; height:440px; width:100%;}
+.content-left .luxury-content{ width:100%;height:140px; margin:0 auto; position: relative;}
+.content-left .luxury-content ul{width:100%; height:160px; background: #fff; position: absolute; bottom:0; box-sizing: border-box; padding: 25px 20px 15px 20px; -webkit-border-radius: 10px 10px 0 10px; border-radius: 10px 10px 0 10px; -webkit-box-shadow: 0 0 10px #757575; box-shadow: 0 0 10px #757575;}
+.content-left .luxury-content li{float: left; width:50%;text-align: center;}
+.content-left .luxury-content li a{ font-size:12px; line-height: 40px; color: #000;}
+.content-left .luxury-content li.active a{ color:#C81417;}
+.content-left .luxury-content li a:hover{ color:#C81417;}
+
+.luxury{ overflow: hidden;background: #fff; }
+.luxury .luxury-right{ float: left;}
+.luxury-right ul li{float: left;position: relative;}
+.luxury-right ul li p{ position: absolute;}
+.luxury-right ul li p.name{ left:20px; top: 20px;color: #666;}
+.luxury-right ul li p.price{ left:20px; top:46px; color: #c81417;}
+.luxury-right ul li img{ display: block;width: 100%;}
+
+.tab-scroll{ height:90px; margin-top:20px;overflow: hidden; position: relative; -webkit-box-shadow: 1px 1px 3px #d4d4d4; box-shadow: 1px 1px 3px #d4d4d4; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;}
+.tab-scroll .tabWrapp-lu{width: 1120px;margin: 0 auto;overflow: hidden;}
+.tab-scroll ul{ height: 90px;position: relative;}
+.tab-scroll ul li{ float: left;}
+.tab-scroll ul li img{ margin-top:20px;}
+.tab-scroll .arrow{width: 30px; height: 90px;background: url("../images/index-logoScroll.png") no-repeat #fff;position: absolute; top: 0px;cursor: pointer;}
+.tab-scroll .prev{background-position: 0 0; left: 0px;}
+.tab-scroll .next{background-position: -45px 0;right: 0px;}
+
+.cross-right{ float: left;}
+.cross-right .cross-right-ban{ float: left; width:290px;}
+.cross-right .cross-right-ban ul li img{display: block;width: 100%;}
+.cross-right .cross-right-list{ float: left; width:590px; height: 580px;}
+.cross-right .cross-right-list ul li{ float: left; width:196px; height:290px; border-right:1px solid #f0f0f0; border-bottom:1px solid #f0f0f0; overflow: hidden;}
+.cross-right .cross-right-list ul li.bor-none{ border-right:none;}
+
+.content2-left{ float: left;width:400px; height:615px; }
+.content2-left-down1{ width:100%; height:100px; position: relative; top:-20px; left:0px; background: #fff;-webkit-border-top-left-radius: 10px; border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius: 10px; -webkit-box-shadow: 0 0 10px #757575; box-shadow: 0 0 10px #757575;}
+.content2-left-down1 ul{ width:80%; margin:0 auto; padding-top:20px;}
+.content2-left-down1 ul li{ float: left; width:80px; height:30px;line-height: 30px;}
+.content2-left-down1 ul li a{ color: #000; font-size:12px;font-family: "宋体";}
+.content2-left-down1 ul li.active a{ color: #c81417;}
+.content2-left-down1 ul li a:hover{ color: #c81417;}
+
+
+.content2{ height:615px !important;}
+.content2-left-down2{ width:100%;height: 90px; margin-top: -20px;}
+.content2-left-down2 ul{ width:336px; margin:0 auto;}
+.content2-left-down2 ul li{ float: left; width:112px;overflow: hidden; color: #000; font-size:12px;font-family: "宋体"; margin-top:13.5px;}
+.content2-left-down2 ul li img{ display: block; width:100%;}
+.content2 .content2-right{ float: left; width:800px;}
+.content2 .content2-right .content2-right-up{overflow: hidden;}
+.content2 .content2-right .content2-right-up ul li{ float: left; width:50%;}
+.content2 .content2-right .content2-right-up ul li img{ display: block; width:100%;}
+.content2 .content2-right .content2-right-down ul li{ float:left; width:200px; border-left:1px solid #F0F0F0;box-sizing: border-box; position: relative;}
+.content2 .content2-right .content2-right-down ul li p{ position: absolute; left: 4px;}
+.content2 .content2-right .content2-right-down ul li p.brand{ height: 22px; top: 5px;font-size: 15px; color: #666; font-weight: 300;}
+.content2 .content2-right .content2-right-down ul li p.product-name{ height: 18px;line-height: 18px;top: 24px;font-size: 13px; color: #999;font-family: "宋体";}
+.content2 .content2-right .content2-right-down ul li p.price{ height: 18px;line-height: 18px;top: 40px;font-size: 13px; color: #c81714;}
+
+.leftNav{width: 60px;border: 1px solid #e6e6e6;position: fixed;left: -60px;top: 30%;}
+.leftNav ul{overflow: hidden;}
+.leftNav ul li{width: 100%;height: 40px;border-bottom: 1px dashed #ccc;line-height: 40px;text-align: center;cursor: pointer;}
+.leftNav ul li:last-child{border-bottom: none;}
+.leftNav ul li:hover{background: #c81417;color: #fff;}
+.leftNav ul li.active{background: #c81417;color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+.login-header{ width: 100%; height: 112px;}
+.login-header-content{ height: 100%;}
+.login-header-content .logo{float: left; margin-top: 25px;}
+.login-header-r{ width: 600px;overflow: hidden; height: 112px;    float: right;}
+.login-header-content ul{ width: 100%;}
+.login-header-content ul li{ float: left; width: 200px; padding-top: 24px;}
+.login-header-content ul li b{display: block;font-size: 18px;color: #d61518; line-height: 40px;height: 40px;}
+.login-header-content ul li .ft-list-bg{ display:inline-block;width: 62px; height: 62px; vertical-align:top;background: url("../images/foot-sprite.png") no-repeat;}
+.login-header-content ul li .ft-list-bg1{background-position: -270px -105px;}
+.login-header-content ul li .ft-list-bg3{background-position: -450px -105px;}
+.login-header-content ul li .ft-list-bg4{background-position: -540px -105px;}
+
+.login-frame{ width: 340px; height: 390px; border: 1px solid #ccc;float: right; margin-top: 83px;}
+.login-frame .deep_orange{height: 45px;padding-left: 22px;}
+.login-frame .deep_orange a{ color: #FF7800; font-family: "宋体";line-height: 45px;}
+.login-frame .login-items{ width: 240px; margin: 0 auto;}
+.login-frame .login-items input{ display: block; width: 100%; height: 42px; text-indent: 3em; outline: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; background: url("../images/login-box.png") no-repeat; border: 1px solid #D0D0D0; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;}
+.login-frame .login-items input[type="text"]{ -ms-background-position-y: -90px; background-position-y: -90px;}
+.login-frame .login-items input[type="password"]{ -ms-background-position-y: -135px; background-position-y: -135px;}
+.login-frame .login-items span{ display: block; height: 30px;line-height: 30px;visibility: hidden;}
+
+.selected{ width: 240px; margin: 0 auto;}
+.selected a{display: inline-block; width: 45%; height: 40px;line-height: 40px; color: #a7a7a7;font-family: "宋体"; font-size: 12px;}
+.selected a:nth-of-type(1){text-indent: .8em;}
+.selected a:last-child{text-align: right;}
+input[type="checkbox"]{ width: 14px; height: 14px;vertical-align: middle;}
+input[type="submit"]{ display: block;width: 240px; height: 40px; margin: 0 auto;cursor:pointer;background: #C81417; border: none;outline: none; color: #fff; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;}
+.no-reg{ padding-top: 10px;text-align: center; color: #a7a7a7;font-family: "宋体"; font-size: 12px;}
+.login-frame ul{ width: 240px; height: 50px; margin: 0 auto; padding-top: 15px;}
+.login-frame ul li{ float: left; width: 120px;text-align: center;}
+.login-frame ul li a{font-family: "宋体"; font-size: 12px;color: #a7a7a7;}
+.login-frame ul li i{ display:block;width: 30px; height: 30px; margin: 0 auto;background: url("../images/login-box.png") no-repeat; }
+.login-frame ul li:nth-of-type(1) i{background-position-y: -180px;}
+.login-frame ul li:last-child i{background-position-y: -225px;}
+
+
+
+.register-frame{ float: right; width: 350px; height: 500px; border: 1px solid #ccc; margin-top: 28px;}
+.log-tit{ width: 100%; height: 40px; background: #f5f5f5;border-bottom: 1px solid #f0f0f0;line-height: 40px;}
+.log-tit span{display:inline-block; width: 40%;; margin-left: 25px;}
+.log-tit a{display:inline-block;width: 50%; color: #ff7800; text-align: right;}
+
+.register-frame .form-list{ width: 300px; margin: 0 auto; overflow: hidden;}
+.form-list ul{ padding-top: 20px;}
+.register-frame .form-list ul li input{border: none; border: 1px solid #e6e6e6; height: 34px; width: 170px;background: #fcfcfc; padding-left: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.register-frame .reg-list span{display: inline-block; width: 55px; height: 35px; font-size: 12px;line-height: 35px;}
+.form-list .error{ width: 222px; height: 30px;line-height: 30px;margin-left: 55px;}
+.register-frame .form-list ul li:nth-of-type(1) input{ background: url("../images/icon_sign_up_page_system.png") no-repeat center right; padding-right: 45px;}
+.register-frame .form-list ul li:nth-of-type(2) input{ background: url("../images/icon_sign_up_key.png") no-repeat center right; padding-right: 45px;}
+.register-frame .form-list ul li:nth-of-type(3) input{ background: url("../images/icon_sign_up_key.png") no-repeat center right; padding-right: 45px;}
+.register-frame .submit{display:block; width: 265px; height: 40px; border: none; margin:0 auto;background: #C81417; color: #fff;cursor: pointer; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+#yzm{ width: 80px; margin-left: 10px;font-size: 12px;font-family: "宋体"; color: #666;cursor: pointer;background: #eaeaea;}
+#v_container{width: 80px; margin-left: 10px;cursor: pointer;vertical-align: top;}
+.register-frame .agreement{float:right; margin-right: 25px; margin-top: 10px;}
+.register-frame .agreement a{font-family: "宋体"; color: #666;font-size: 12px;}
